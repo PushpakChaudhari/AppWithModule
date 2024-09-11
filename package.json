@@ -4,11 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output public",
+    "build": "ng build --output-path=public",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:AppWithModule": "node dist/app-with-module/server/server.mjs"
-  },
+    "serve:ssr:AppWithModule": "node dist/app-with-module/server/server.mjs"},
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.0",
