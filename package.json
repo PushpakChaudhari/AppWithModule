@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "outputPath": "public",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:AppWithModule": "node dist/app-with-module/server/server.mjs"},
