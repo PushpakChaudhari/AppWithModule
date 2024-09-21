@@ -1,7 +1,0 @@
-{
-  "REWRITES":[
-    {"SOURCE":"/(.*)",
-    "DESTINATION":"/"
-  }
-  ]
-}
