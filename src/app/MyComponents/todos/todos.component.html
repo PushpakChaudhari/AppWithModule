@@ -34,7 +34,7 @@
     <input type="text" [(ngModel)]="searchQuery" (input)="searchTodos()" class="form-control" placeholder="Search Todos">
   </div>
 
-  <div class="container" style="padding: 0 25px 0 25px; width: 60%;">
+  <div class="container " style=" display: flex; justify-content: center; ">
 
     <app-add-todo (todoAdd)="addTodo($event)"></app-add-todo>
   </div>
